@@ -50,7 +50,6 @@ def increment(counter):
 
 counter = [0, 0x00, 0x00, 0x00, 0,0,0,0]
 
-print()
 while True:
     message = bytearray(counter)
     print("\rSending:  {0} ".format(binascii.hexlify(message)), end='')
